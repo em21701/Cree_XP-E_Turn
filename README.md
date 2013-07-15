@@ -1,7 +1,7 @@
-Luxeon_Rebel_Turn
+Cree_XP-E_Turn
 =================
 
-Luxeon Rebel Turn Board
+Cree XP-E Turn Board
 
-This board fits 4 luxeon rebel LEDs into the board space of the EBAY Chinese flush mount turn signals.
+This board fits 4 Cree XP-E LEDs into the board space of the EBAY Chinese flush mount turn signals.
 
