@@ -124,7 +124,7 @@ Grid 2.54 mm&lt;p&gt;
 <library name="Combined">
 <packages>
 <package name="CREE_XP-E">
-<smd name="TH" x="0" y="0" dx="1.3" dy="3.3" layer="1"/>
+<smd name="TH" x="0" y="0" dx="1.3" dy="3.3" layer="1" thermals="no"/>
 <smd name="AN" x="-1.4" y="0" dx="0.5" dy="3.3" layer="1"/>
 <smd name="CT" x="1.4" y="0" dx="0.5" dy="3.3" layer="1"/>
 <wire x1="1.4" y1="0" x2="1.8" y2="0" width="0.5" layer="1"/>

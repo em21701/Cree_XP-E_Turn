@@ -330,7 +330,7 @@ Grid 2.54 mm&lt;p&gt;
 <instance part="LED2" gate="G$1" x="60.96" y="71.12" rot="R270"/>
 <instance part="LED3" gate="G$1" x="81.28" y="71.12" rot="R270"/>
 <instance part="LED4" gate="G$1" x="101.6" y="71.12" rot="R270"/>
-<instance part="X1" gate="-1" x="119.38" y="71.12"/>
+<instance part="X1" gate="-1" x="22.86" y="60.96" rot="R180"/>
 <instance part="X1" gate="-2" x="22.86" y="71.12" rot="R180"/>
 <instance part="LED1" gate="TH" x="43.18" y="33.02"/>
 <instance part="LED2" gate="TH" x="58.42" y="33.02"/>
@@ -371,8 +371,10 @@ Grid 2.54 mm&lt;p&gt;
 <net name="V+" class="0">
 <segment>
 <pinref part="LED4" gate="G$1" pin="A"/>
-<wire x1="104.14" y1="71.12" x2="116.84" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="71.12" x2="119.38" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="71.12" x2="119.38" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="X1" gate="-1" pin="1"/>
+<wire x1="119.38" y1="60.96" x2="25.4" y2="60.96" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="THERMAL" class="0">

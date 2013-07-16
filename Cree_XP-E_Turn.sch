@@ -125,13 +125,11 @@ Grid 2.54 mm&lt;p&gt;
 <packages>
 <package name="CREE_XP-E">
 <smd name="TH" x="0" y="0" dx="1.3" dy="3.3" layer="1" thermals="no"/>
-<smd name="AN" x="-1.4" y="0" dx="0.5" dy="3.3" layer="1"/>
-<smd name="CT" x="1.4" y="0" dx="0.5" dy="3.3" layer="1"/>
-<wire x1="1.4" y1="0" x2="1.8" y2="0" width="0.5" layer="1"/>
-<wire x1="-1.4" y1="0" x2="-1.8" y2="0" width="0.5" layer="1"/>
-<wire x1="-1.4" y1="-1.3" x2="-1.8" y2="0" width="0.5" layer="1"/>
-<wire x1="-1.8" y1="0" x2="-1.4" y2="1.3" width="0.5" layer="1"/>
+<smd name="AN" x="-1.6" y="0" dx="0.9" dy="0.5" layer="1" thermals="no"/>
+<smd name="CT" x="1.6" y="0" dx="0.9" dy="0.5" layer="1" thermals="no"/>
 <text x="-2.54" y="1.016" size="0.8128" layer="25">+</text>
+<rectangle x1="-1.65" y1="-1.65" x2="-1.15" y2="1.65" layer="1"/>
+<rectangle x1="1.15" y1="-1.65" x2="1.65" y2="1.65" layer="1"/>
 </package>
 <package name="LUXEON_REBEL">
 <description>&lt;b&gt;LUXEON® Rebel LED&lt;/b&gt;&lt;p&gt;
